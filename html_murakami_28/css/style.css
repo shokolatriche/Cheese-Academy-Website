@@ -1,0 +1,319 @@
+/* ここから下に記載していく */
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* -----------------navigation & logo -----------------*/
+.f-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #222222;
+    font-size: 21px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/* ここがわからない 
+ul.header_nav  {
+    display: flex;
+}
+
+.header_nav li {
+    margin-left: 50px;
+}
+*/
+
+/* ---------------- main ---------------*/
+.mainvisual {
+    height:400px ;
+    background: url(../img/mainbg.png);
+    /* necessary for background */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    .mainvisual_title {
+        text-align: center; 
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        padding-top: 200px;
+    }
+        .mainvisual_sub {
+            text-align: center; 
+            color: white;
+            font-size: 30px;
+            padding-top: 30px;
+        }
+/* -----------------About----------------- */
+.about {
+    text-align: center;
+    color: #ffd61a;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.aboutj {
+    text-align: center;
+    color: #222222;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+    .aboutmain {
+        text-align: center;
+        color: #222222;
+        font-size: 16px;
+        }
+            .mainline1 {
+                text-align: center;
+                color: #222222;
+                font-size: 16px;
+                margin-bottom: 40px;
+                }
+            .mainline2 {
+                text-align: center;
+                color: #222222;
+                font-size: 16px;
+                margin-bottom: 40px;
+            }
+            .mainline3 {
+                text-align: center;
+                color: #222222;
+                font-size: 16px;
+                margin-bottom: 40px;
+            }
+            .mainline4 {
+                text-align: center;
+                color: #222222;
+                font-size: 16px;
+                margin-bottom: 80px;
+            }
+            
+            .imgBox {
+                display: flex;
+            }
+            .imgBox p img{
+                width: 100%;
+            }
+
+/* --------------Course -----------------*/
+.course {
+    text-align: center;
+    color: #222222;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    }
+    .coursedescription {
+        text-align: center;
+        color: #222222;
+        font-size: 16px;
+        margin-bottom: 60px;
+        line-height: 1.8;
+        }
+            .course_detail {
+                background: #fafafa;
+            }
+                .course1 {
+                    display: flex;
+                    justify-content: center;
+                    align-items:center;
+                    margin-left: 50px;
+                    margin-right: 50px;
+                    width: 1010px;
+                    /* 480px x 2 + 50px */
+                }
+                .course2 {
+                    display: flex;
+                    justify-content: center;
+                    align-items:center;
+                    margin-left: 50px;
+                    margin-right: 50px;
+                    width: 1010px;
+                    /* 480px x 2 + 50px */
+                }
+                .course3 {
+                    display: flex;
+                    justify-content: center;
+                    align-items:center;
+                    margin-left: 50px;
+                    margin-right: 50px;
+                    width: 1010px;
+                    /* 480px x 2 + 50px */
+                }
+
+        .course-item-title {
+            text-align: center;
+            color: #222222;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 120px;
+            margin-bottom: 40px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .course-item-text {
+            text-align: center;
+            color: #222222;
+            font-size: 16px;
+            margin-bottom: 60px;
+            line-height: 1.8;
+        }
+
+/* ----------------news --------------- */
+.news {
+    text-align: center;
+    color: #ffd61a;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    }
+.newsj {
+    text-align: center;
+    color: #222222;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    }
+    .newsList {
+        width: 960px;
+        /* 300px x3つの画像 = 900px */
+         /* 余白　30px X ２つ =60px 900pxに追加*/
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        /* 幅が決まっているものを中央に置く場合はこれ！ */
+    }
+
+
+        /* .imgBox_news {
+            display: flex;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        .imgBox_news p {
+            width: 33%;
+        }
+
+        .news_article {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+            color: #222222;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+    .btn {
+        display: block;
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        padding: 21px 0;
+        /* 60 - 18px=42 上下で割振ると21 */
+        /* width: 300px;
+        margin: auto;
+        background-color: yellow;
+    }  */ */
+
+/* --------------Access------------------- */
+#access {
+    background: #fafafa;
+}
+    .access {
+        text-align: center;
+        color: #222222;
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        padding-top: 60px;
+    }
+    .accessj {
+        text-align: center;
+        color: #222222;
+        font-size: 18px; 
+        margin-bottom: 60px;
+    }
+
+        .google_map {
+            width: 1200pt;
+        }
+
+        .detail {
+            align-items: center;
+            text-align: center;
+            color: #222222;
+            margin-top: 60px;
+            margin-bottom: 30px;
+            font-size: 18px;
+            line-height: 1.8;
+        } */
+
+/* ------------- Contact------------------ */
+.contact {
+    text-align: center;
+    color: #222222;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+    .contact_line1 {
+        text-align: center;
+        color: #222222;
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+    .contact_line2 {
+        text-align: center;
+        color: #222222;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .contact_line3 {
+        text-align: center;
+        color: #222222;
+        font-size: 18px;
+        margin-bottom: 70px;
+    }
+
+        .formBox {
+            
+            /* display: flex; を使う。設問ごと分ける*/
+            text-align: center;
+            color: #222222;
+            font-size: 18px;
+        }
+       
+            .submit {
+                display: block;
+                text-align: center;
+                color: white;
+                font-size: 18px;
+                padding: 21px 0;
+                /* 60 - 18px=42 上下で割振ると21 */
+                width: 300px;
+                margin: auto;
+                background-color: yellow;
+            }
+
+#footer {
+    color: white;
+    text-align: center;
+    background:  #707070;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
